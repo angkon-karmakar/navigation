@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(9, 105, 107);
+}
+li{
+    list-style: none;
+
+}
+a{
+    color: lime;
+}
