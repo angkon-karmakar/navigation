@@ -4,10 +4,41 @@ body{
     justify-content: center;
     background-color: rgb(9, 105, 107);
 }
-li{
-    list-style: none;
+ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 20px;
 
+}
+li {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    
+
+}
+li:hover{
+    background-color: gray;
+    opacity: 60%;
 }
 a{
     color: lime;
+
+
+}
+nav li a{
+    text-decoration: none;
+}
+
+/* nested menu with hover effect */
+nav li .dropdown{
+    display: none;
+
+}
+nav li:hover .dropdown{
+    display: block;
+    position: absolute;
 }
